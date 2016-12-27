@@ -1,2 +1,2 @@
 # PhysX-Sharp
-SWIG generated C# wrapper for NVidia PhysX
+SWIG generated C#/.NET wrapper for NVidia PhysX
