@@ -3,3 +3,5 @@
 #define NDEBUG
 #define __declspec(x)
 #define __forceinline
+#define __cdecl
+#define __restrict
