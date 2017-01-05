@@ -1,5 +1,15 @@
 %module physx
 
+%{
+    #include "PxPhysicsAPI.h"
+    #include "geometry/PxGeometry.h"
+    #include "physxvisualdebuggersdk/PvdConnection.h"
+
+    using namespace physx;
+    using physx::debugger::comm::PvdConnection;
+    using physx::debugger::TConnectionFlagsType;
+%}
+
 %import "PhysX-Types.i"
 
 %include "PxVisualizationParameter.h"

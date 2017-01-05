@@ -1,2 +1,7 @@
 gen/
 PhysX_wrap.cxx
+*.idb
+*.pdb
+*.exp
+*.lib
+*.obj
